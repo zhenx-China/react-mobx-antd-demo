@@ -1,0 +1,27 @@
+.textCenter {
+    text-align: center;
+  }
+  
+.antLayoutHeader {
+    composes: textCenter;
+    background: #001529;
+    padding: 0 80px;
+    height: 64px;
+    line-height: 35px;
+  }
+  
+.fontWhite{
+    color:white;
+  }
+  
+.fontTitle {
+      composes: fontWhite;
+      font-size:28px;
+      text-align: center;
+  }
+  
+.fontRight{
+    composes: fontWhite;
+    float: right;
+  }
+  
